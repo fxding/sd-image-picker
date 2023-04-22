@@ -2,8 +2,51 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Getting Started Extension's Popup</title>
+    <title>Options Popup</title>
     <script src="js/vendor.js"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+    
+      body {
+        width: 350px;
+        height: 300px;
+        padding: 1rem;
+      }
+    
+      .options-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+    
+      .form-control {
+        margin-bottom: 1rem;
+      }
+    
+      label {
+        display: block;
+        font-weight: bold;
+      }
+    
+      input {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #9c9c9c;
+      }
+    
+      .save-options-btn {
+        margin-top: 1rem;
+        padding: 10px 15px;
+        border-radius: 5px;
+        background-color: #0098d1;
+        color: white;
+        border: none;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
